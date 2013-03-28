@@ -160,7 +160,7 @@ private:
 };
 //-----
 
-#define LATCH_OUTPUT_PIN 13
+#define LATCH_OUTPUT_PIN 7
 
 class MagneticLatch {
 public:
