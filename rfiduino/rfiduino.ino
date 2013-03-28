@@ -145,9 +145,13 @@ public:
       client.read(); // 0xa
       client.read(); // 0x3
 
-      return String(code); 
+      if (code == 0) {
+        return "";
+      } else {
+        return String(code); 
+      }
     } else {
-      return "0000";
+      return "";
     }
   }
 
